@@ -1,0 +1,6 @@
+https://raspberry-pi.kr/rfid-raspberry-pi-8/
+
+허큘리스 사용법
+https://forum.wiznet.io/t/topic/4143/4
+
+RFID - SPI 방식 통신

@@ -1,0 +1,82 @@
+
+[System Ready, Vendor:www.ai-thinker.com]
+
+[channel 0 Detected Version]: MIFARE RC522v2
+
+[channel 1 No reader found]
+AT
+
+
+OK
+AT+RST
+
+
+OK
+貨GEt??哈Tkm姪?
+[System Ready, Vendor:www.ai-thinker.com]
+AT+GMR
+
+0018000902
+
+OK
+AT+CWMODE=1
+
+no change
+AT+CWMODE?
+
++CWMODE:1
+
+OK
+AT+CWLAP
+
++CWLAP:(3,"ChoiHW",-36,"7a:3f:42:20:64:82",6)
++CWLAP:(4,"KT_GiGA_2G_2F54",-56,"88:3c:1c:32:2f:58",6)
++CWLAP:(0,"iptime",-78,"88:36:6c:1b:d4:3a",9)
++CWLAP:(4,"KT_GiGA_2G_Wave2_9269",-66,"00:07:89:82:92:6c",11)
+
+OK
+AT+CWJAP="ChoiHW","hwhwhwhw0000"
+
+
+OK
+AT+CIFSR
+
+172.20.10.2
+
+OK
+AT+CIPSTART="TCP","172.20.10.3",23
+
+
+OK
+Linked
+[CHECK UID(CH0)]:
+        ascii: 2?
+        dec: 5 50 190 40
+        hex: 05 32 BE 28
+AT+CIPSEND=11
+
+> 05 32 BE 28
+
+busy s...
+
+SEND OK
+
++IPD,12:O,CHOIHEEWOO
+OK
+
+To server : O,CHOIHEEWOO[CHECK UID(CH0)]:
+        ascii: 2?
+        dec: 5 50 190 40
+        hex: 05 32 BE 28
+AT+CIPSEND=11
+
+> 05 32 BE 28
+
+busy s...
+
+SEND OK
+
++IPD,12:O,CHOIHEEWOO
+OK
+
+To server : O,CHOIHEEWOO

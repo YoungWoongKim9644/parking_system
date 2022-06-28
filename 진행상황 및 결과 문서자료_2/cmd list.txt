@@ -1,0 +1,29 @@
+AT+RST
+
+AT+CWMODE?
+
+AT+CWMODE=1
+
+AT+CWLAP
+
+AT+CWJAP="ChoiHW","hwhwhwhw0000"
+//AT+CWQAP //연결해제
+AT+CIFSR
+
+AT+CIPSEVER= //0 서버 삭제, 1 서버 시작
+
+AT+CIPSTART="TCP","125.142.219.118",8888
+
+=====
+AP 연결 후
+AT+CWMODE=2 //soft AP
+
+AT+CWSAP?//이거 해주면 esp8266서버의 ssid, pw, ch id, ecn 값 반환해줌 
+
+===
+AT+CIPSTART="TCP","172.20.10.3",23 //서버와 esp8266은 같은 공유기에 연결되어 있어야함
+
+'
+
+====
+전원 껐다 켰을 시, 다시 연결을 못잡는거같은데, 처음에 아예 연결을 끊어주고 시작해야되나 ?
